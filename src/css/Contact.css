@@ -1,4 +1,19 @@
 .LungImage {
-  height: 30%;
-  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+
+.LungCancerBody {
+  justify-content: center;
+  width: 60%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CancerTitle {
+  text-align: center;
 }
