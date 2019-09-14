@@ -5,16 +5,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Home = props => {
   return (
     <div className="home-container">
-      <div className="head-alert"></div>
-      <button className="btn btn-dark">button 1</button>
-      <button className="btn btn-dark">button 2</button>
-      <button className="btn btn-dark">button 3</button>
-      <button className="btn btn-dark">button 4</button>
-      <button className="btn btn-dark">button 5</button>
-      <button className="btn btn-dark">button 6</button>
-      <button className="btn btn-dark">button 7</button>
-      <button className="btn btn-dark">button 8</button>
-      <p>Home</p>
+      <div className="diagram">
+        <button className="btn btn-dark heart-b">Heart</button>
+        <button className="btn btn-dark lungs-b">Lungs</button>
+        <button className="btn btn-dark brain-b">Brain</button>
+        <button className="btn btn-dark liver-b">Liver</button>
+        <button className="btn btn-dark stomach-b">Stomach</button>
+        <button className="btn btn-dark large-b">Large Intestines</button>
+        <button className="btn btn-dark small-b">Small Intestines</button>
+        <button className="btn btn-dark kidney-b">Kidney</button>
+      </div>
     </div>
   );
 };
