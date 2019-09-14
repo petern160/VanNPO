@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import "../css/About.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./Navigation";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
-    <div>
-      <p>About</p>
+    <div className="start hero-c">
+      <h1>test</h1>
     </div>
   );
 };
