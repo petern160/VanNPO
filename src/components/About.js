@@ -8,7 +8,7 @@ const About = () => {
     <>
       <div className="start hero-c">
         <NavLink className="enter-diagram" to="/">
-          Click To Enter
+          Click To View Diagram
         </NavLink>
         <div className="first-half">
           test Culpa officia eiusmod adipisicing ut veniam amet id officia sit
