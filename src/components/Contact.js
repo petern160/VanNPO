@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import "../css/Contact.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Contact = () => {
   return (
