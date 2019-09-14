@@ -1,9 +1,4 @@
-h2 {
-    color: red;
-}
-
 .home-container {
-    position: absolute;
     height: 100vh;
     width: 100vw;
     background-image: url('../img/home.jpg');
@@ -11,13 +6,3 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
-/* .head-alert {
-
-    bottom: 8em;
-    left: 50em;
-    border: 10px solid red;
-    border-radius: 50%;
-    width: 10em;
-
-} */
