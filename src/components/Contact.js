@@ -43,9 +43,9 @@ const Contact = (props) => {
       </ul>
 
       <h3>REFERENCES</h3>
-      <a href="https://bccancerfoundation.com/why-give/research/lung">BC Cancer Foundation</a>
+      <a href="https://bccancerfoundation.com/why-give/research/lung" target="_blank">BC Cancer Foundation</a>
       <br/>
-      <a href="http://www.bccancer.bc.ca/health-info/types-of-cancer/lung/lung">BC Cancer</a>
+      <a href="http://www.bccancer.bc.ca/health-info/types-of-cancer/lung/lung" target="_blank">BC Cancer</a>
     </div>
   );
 };
