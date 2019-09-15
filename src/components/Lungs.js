@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "../css/Contact.css";
+import "../css/Lungs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
-const Contact = props => {
+const Lungs = props => {
   const [data, setData] = useState([]);
   const [longitude, setLongitude] = useState(0);
   const [latitude, setLatitude] = useState(0);
@@ -149,4 +149,4 @@ const Contact = props => {
   );
 };
 
-export default Contact;
+export default Lungs;

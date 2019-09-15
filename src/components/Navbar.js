@@ -7,7 +7,7 @@ class Navbar extends Component {
     
     return (
     <nav class="navbar navbar-light bg-info">
-      <a class="navbar-brand" href="#">Oncol-IG</a>
+      <a class="navbar-brand" href="/">Oncol-IG</a>
     </nav>
     );
   }
