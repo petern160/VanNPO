@@ -5,6 +5,7 @@ import axios from "axios";
 import Navbar from "./Navbar.js";
 
 const Contact = props => {
+  const APP_KEY = process.env.REACT_APP_API_KEY;
   const [data, setData] = useState([]);
   const [longitude, setLongitude] = useState(0);
   const [latitude, setLatitude] = useState(0);
@@ -31,7 +32,7 @@ const Contact = props => {
     } else {
       axios
         .get(
-          `https://api.betterdoctor.com/2016-03-01/doctors?location=${latitude},${longitude},100&skip=2&limit=3&user_key=e22ad77855d46b63d13c61d86916a357`
+          `https://api.betterdoctor.com/2016-03-01/doctors?location=${latitude},${longitude},100&skip=2&limit=3&user_key=${APP_KEY}`
         )
         .then(res => {
           let list = res.data.data;
