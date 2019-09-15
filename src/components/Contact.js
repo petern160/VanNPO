@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../css/Contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
+import Navbar from "./Navbar.js";
 
 const Contact = props => {
   const [data, setData] = useState([]);
@@ -56,6 +57,7 @@ const Contact = props => {
   });  
   return (
     <div className="LungCancer">
+      <Navbar />
       <h1 className="CancerTitle">Lung Cancer</h1>
       <img className="LungImage" src="/img/lung.jpg" />
 
@@ -136,15 +138,25 @@ const Contact = props => {
         >
           BC Cancer
         </a>
+        <div className="doctor-button">
+          <h3>FIND SUPPORT NEAR YOU</h3>
+          <button onClick={helpButton} className="btn btn-primary btn-lg btn-lg">Find a doctor near you</button>
+
+        </div>
       </div>
       {data.map(data => (
-        <h1 key={data.name}>
-          Name: {data.name}
-          Address: {data.visit_address.street}, {data.visit_address.city}
-          {/* <img className="profile-picture" src={data.profile.image_url} /> */}
-        </h1>
+        <div className="doctor-container">
+          <h1 key={data.distance} className="doctor-name" >
+            {data.name}
+          </h1>
+          <h2 className="address">
+            Address: {data.visit_address.street}, {data.visit_address.city} {data.visit_address.zip}
+          </h2>
+          <h2>
+            Tel: +1 {data.phones[0].number}
+          </h2>
+        </div>
       ))}
-      <button onClick={helpButton}>get help</button>
     </div>
   );
 };
