@@ -63,4 +63,4 @@
     left: 25%;
 }
 /* this line disable scrolling on body diagram */
-html, body {margin: 0; height: 100%; overflow: hidden}
+.home-container {margin: 0; height: 100%; overflow: hidden}
