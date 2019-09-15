@@ -34,10 +34,26 @@ const Contact = props => {
         )
         .then(res => {
           let list = res.data.data;
-          console.log(list);
+          // console.log(list);
+
+          let viable = [] // available nearby doctors
+
+          list.forEach(object => {
+            // console.log(object);
+            object.practices.forEach(practice => {
+              // console.log(practice);
+                if( practice.within_search_area && practice.accepts_new_patients ){
+                  viable.push(practice)
+              }
+            });
+          });
+          
+          console.log(viable);
+          setData(viable);
+          
         });
     }
-  });
+  });  
   return (
     <div className="LungCancer">
       <h1 className="CancerTitle">Lung Cancer</h1>
