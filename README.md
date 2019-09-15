@@ -4,4 +4,6 @@ https://gomockingbird.com/projects/lq8mrf5/4gXVnC
 
 ### second page
 
-causes, symptoms, treatments, mortality rate, a
+causes, symptoms, treatments, mortality rate,
+
+### BC Cancer information
