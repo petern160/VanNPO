@@ -59,10 +59,26 @@
     background-color: rgb(102, 147, 231);
 }
 
+/**********  THIS IS FOR THE PARAGRAPH AND MINI HEADER **********/
 .first-half {
     position: absolute;
-    bottom: 14%;
+    bottom: 13%;
     font-size: 1.5em;
     text-align: center;
-    /* border: 2px solid red; */
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #726b6b;
+    margin: 20px;
+    padding: 10px;
+}
+
+.about-tagline {
+    font-weight: bold;
+    color: rgb(236, 251, 234)
+}
+
+.about-paragraph {
+    color: rgb(236, 251, 234);
+    padding-left: 30px;
+    padding-right: 30px;
 }
