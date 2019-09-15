@@ -1,0 +1,47 @@
+.hero-c {
+
+    color: #f8f8f8;
+    height: 100vh;
+    background: linear-gradient(rgba(187, 213, 235, 0.6),
+            rgba(79, 128, 207, 0.7)), url("https://postmediavancouversun2.files.wordpress.com/2014/11/bcffinallogocmyk2.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: 100% 100%; */
+}
+
+.enter-diagram {
+    position: absolute;
+    bottom: 6%;
+    left: 40%;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    background-color: rgb(194, 188, 178);
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.4em;
+    transition: all 0.2s;
+    width: 15em;
+}
+
+
+.enter-diagram:hover {
+    font-weight: 20;
+    color: #edebeb;
+    background-color: rgb(102, 147, 231);
+}
+
+.first-half {
+    position: absolute;
+    bottom: 14%;
+    font-size: 1.5em;
+    text-align: center;
+    /* border: 2px solid red; */
+}

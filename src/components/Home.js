@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "../css/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from './Navbar.js';
+
 
 const Home = props => {
   return (
     <div className="home-container">
+        <Navbar />
       <div className="diagram">
         <button className="btn btn-dark heart-b">Heart</button>
         <button className="btn btn-dark lungs-b">Lungs</button>
@@ -16,6 +19,7 @@ const Home = props => {
         <button className="btn btn-dark kidney-b">Kidney</button>
       </div>
     </div>
+
   );
 };
 

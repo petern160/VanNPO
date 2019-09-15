@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Contact = () => {
   return (
     <div>
-      <p>Contact</p>
+      <h1>lungs</h1>
     </div>
   );
 };
