@@ -7,6 +7,7 @@ const About = () => {
   return (
     <>
       <div className="start hero-c">
+        <h1 className="home-title">Oncol-IG</h1>
         <NavLink className="enter-diagram" to="/">
           Click To View Diagram
         </NavLink>

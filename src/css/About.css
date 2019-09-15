@@ -1,14 +1,25 @@
 .hero-c {
-
     color: #f8f8f8;
     height: 100vh;
     background: linear-gradient(rgba(187, 213, 235, 0.6),
             rgba(79, 128, 207, 0.7)), url("https://postmediavancouversun2.files.wordpress.com/2014/11/bcffinallogocmyk2.jpg");
-
     background-repeat: no-repeat;
     background-position: center center;
     /* background-size: 100% 100%; */
 }
+
+.home-title {
+    color: white;
+    font-family: 'Rouge Script', cursive;
+    font-size: 8em;
+    font-weight: normal;
+    padding-top: 0.1em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #1f3a41;
+}
+
+
+
 
 .enter-diagram {
     position: absolute;
