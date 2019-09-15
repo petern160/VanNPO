@@ -2,11 +2,12 @@
     height: 100vh;
     width: 100vw;
     background-color: lightgray;
+    overflow: hidden
 }
 
 .diagram {
     height: 100vh;
-    background-image: url('../img/home.jpg');
+    background-image: url('/img/diagram.jpg');
     background-size: 55% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -62,5 +63,3 @@
     top: 70%;
     left: 25%;
 }
-/* this line disable scrolling on body diagram */
-.home-container {margin: 0; height: 100%; overflow: hidden}
