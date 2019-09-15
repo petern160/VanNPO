@@ -36,14 +36,11 @@ const Lungs = props => {
         )
         .then(res => {
           let list = res.data.data;
-          // console.log(list);
 
           let viable = []; // available nearby doctors
 
           list.forEach(object => {
-            // console.log(object);
             object.practices.forEach(practice => {
-              // console.log(practice);
               if (
                 practice.within_search_area &&
                 practice.accepts_new_patients
@@ -63,7 +60,7 @@ const Lungs = props => {
       <Navbar />
       <div className="LungCancer">
         <h1 className="CancerTitle">Lung Cancer</h1>
-        <img className="LungImage" src="/img/lung.jpg" alt=""/>
+        <img className="LungImage" src="/img/lung.jpg" alt="" />
 
         <div className="LungCancerBody">
           <h3>INTRO</h3>
@@ -158,6 +155,7 @@ const Lungs = props => {
             </button>
           </div>
         </div>
+
         {data.map(data => (
           <div className="doctor-container" key={data.distance}>
             <h1 className="doctor-name">{data.name}</h1>
