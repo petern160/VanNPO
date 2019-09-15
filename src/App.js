@@ -1,24 +1,22 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Diagram from "./components/Diagram";
+import Lungs from "./components/Lungs";
 import Error from "./components/Error";
-import Navigation from "./components/Navigation";
 
 const App = props => {
   return (
     <BrowserRouter>
-      <div>
-        <Navigation />
+      <>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/diagram" component={Diagram} />
+          <Route path="/lungs" component={Lungs} />
           <Route component={Error} />
         </Switch>
-      </div>
+      </>
     </BrowserRouter>
   );
 };

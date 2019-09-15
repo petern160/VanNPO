@@ -1,0 +1,21 @@
+.nav-container {
+  background-image: linear-gradient(to bottom right, #373B44, #4286f4);
+}
+
+.logo-nav {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar-text {
+  padding-left: 10px;
+}
+
+#home-text {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+#home-text:hover {
+  color: rgb(213, 211, 211)
+}

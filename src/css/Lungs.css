@@ -1,0 +1,45 @@
+.LungImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+
+.LungCancerBody {
+  justify-content: center;
+  width: 60%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CancerTitle {
+  text-align: center;
+}
+
+.doctor-button {
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.doctor-container {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid rgb(17, 144, 230);
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+
+.doctor-name {
+  background: lightgray;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+
