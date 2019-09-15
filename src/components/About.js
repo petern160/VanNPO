@@ -2,10 +2,13 @@ import React from "react";
 import "../css/About.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavLink } from "react-router-dom";
+import Navbar from './Navbar.js';
+
 
 const About = () => {
   return (
     <>
+        <Navbar />
       <div className="start hero-c">
         <NavLink className="enter-diagram" to="/">
           Click To View Diagram
