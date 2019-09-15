@@ -1,36 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar.js";
+import { NavLink } from "react-router-dom";
 
-const Home = props => {
-  const [changeopacity, setChangeOpacity] = useState("opacity 0");
-
-  const opacityChange = () => {
-    setChangeOpacity();
-  };
+const Home = () => {
   return (
-    <div className="home-container">
-      <Navbar />
-      <div className="diagram">
-        <button className="btn btn-dark heart-b">Heart</button>
-        <div className="heart-c"></div>
-        <button className="btn btn-dark lungs-b">Lungs</button>
-        <div className="lungs-c"></div>
-        <button className="btn btn-dark brain-b">Brain</button>
-        <div className="brain-c"></div>
-        <button className="btn btn-dark liver-b">Liver</button>
-        <div className="liver-c"></div>
-        <button className="btn btn-dark stomach-b">Stomach</button>
-        <div className="stomach-c"></div>
-        <button className="btn btn-dark large-b">Large Intestines</button>
-        <div className="large-c"></div>
-        <button className="btn btn-dark small-b">Small Intestines</button>
-        <div className="small-c"></div>
-        <button className="btn btn-dark kidney-b">Kidney</button>
-        <div className="kidney-c"></div>
+    <>
+      <div className="start hero-c">
+        <Navbar />
+        <h1 className="home-title">Oncol-IG</h1>
+        <NavLink className="enter-diagram" to="/diagram">
+          Click To View Diagram
+        </NavLink>
+        <div className="first-half">
+          test Culpa officia eiusmod adipisicing ut veniam amet id officia sit
+          consequat ipsum et ex nostrud. Et elit dolor mollit laboris. Ullamco
+          commodo cupidatat proident eu tempor cupidatat anim cillum eu ipsum
+          excepteur non ipsum. Sunt est laborum ipsum cupidatat cupidatat aute
+          velit magna non deserunt.
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

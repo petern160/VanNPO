@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/Navbar.css";
-import logo from "./logo-only.png";
+// import logo from "/img/logo-only.png";
 
 class Navbar extends Component {
   render() {
@@ -9,9 +9,9 @@ class Navbar extends Component {
       <>
         <nav className="navbar navbar-expand-lg navbar-dark primary-color nav-container">
           <div class="logo">
-            <img src={logo} alt="" className="logo-nav" />
+            <img src='/img/logo-only.png' alt="" className="logo-nav" />
           </div>
-          <a className="navbar-brand navbar-text" href="#">
+          <a className="navbar-brand navbar-text" href="/">
             Oncol-IG
           </a>
 
@@ -30,19 +30,19 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="basicExampleNav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" id="home-text" href="#">
+                <a className="nav-link" id="home-text" href="/">
                   Home
                   <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/diagram">
                   Diagram
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
+                <a className="nav-link" href="/lungs">
+                  Lungs
                 </a>
               </li>
             </ul>

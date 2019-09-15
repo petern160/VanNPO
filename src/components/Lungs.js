@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "../css/Contact.css";
+import "../css/Lungs.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import Navbar from "./Navbar.js";
 
-const Contact = props => {
+const Lungs = props => {
   const [data, setData] = useState([]);
   const [longitude, setLongitude] = useState(0);
   const [latitude, setLatitude] = useState(0);
@@ -62,7 +62,7 @@ const Contact = props => {
       <Navbar />
       <div className="LungCancer">
         <h1 className="CancerTitle">Lung Cancer</h1>
-        <img className="LungImage" src="/img/lung.jpg" />
+        <img className="LungImage" src="/img/lung.jpg" alt=""/>
 
         <div className="LungCancerBody">
           <h3>INTRO</h3>
@@ -135,6 +135,7 @@ const Contact = props => {
           <a
             href="https://bccancerfoundation.com/why-give/research/lung"
             target="_blank"
+            rel="noopener noreferrer"
           >
             BC Cancer Foundation
           </a>
@@ -142,6 +143,7 @@ const Contact = props => {
           <a
             href="http://www.bccancer.bc.ca/health-info/types-of-cancer/lung/lung"
             target="_blank"
+            rel="noopener noreferrer"
           >
             BC Cancer
           </a>
@@ -170,4 +172,4 @@ const Contact = props => {
   );
 };
 
-export default Contact;
+export default Lungs;

@@ -1,0 +1,216 @@
+.home-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+    overflow: hidden
+}
+
+.diagram {
+    height: 100vh;
+    background-image: url('/img/diagram.jpg');
+    background-size: 55% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+/********** BUTTON PLACEMENTS **********/
+
+.heart-b {
+    position: sticky;
+    left: 70%;
+    top: 40%;
+}
+
+.brain-b {
+    position: sticky;
+    left: 30%;
+    bottom: 78%;
+}
+
+.small-b {
+    position: sticky;
+    top: 93%;
+    left: 64%;
+
+}
+
+.stomach-b {
+    position: sticky;
+    top: 57%;
+    left: 71%;
+
+}
+
+.liver-b {
+    position: sticky;
+    top: 56%;
+    left: 25.5%;
+}
+
+.lungs-b {
+    position: sticky;
+    top: 40%;
+    left: 26%;
+}
+
+.kidney-b {
+    position: sticky;
+    bottom: 27.5%;
+    left: 70%;
+}
+
+.large-b {
+    position: sticky;
+    top: 70%;
+    left: 25%;
+}
+
+
+/********** OPACITY HOVER ON CHANGE FOR CSS BUTTONS **********/
+
+.heart-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 4.5em;
+    width: 4.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 48%;
+    top: 44%;
+}
+
+.heart-b:hover+.heart-c {
+    opacity: 0.5;
+}
+
+.lungs-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 4.2em;
+    width: 4.2em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    top: 43%;
+    left: 43.4%;
+}
+
+.lungs-b:hover+.lungs-c {
+    opacity: 0.5;
+}
+
+
+.brain-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 45%;
+    bottom: 74%;
+
+}
+
+.brain-b:hover+.brain-c {
+    opacity: 0.5;
+}
+
+.liver-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 45%;
+    top: 53%;
+
+}
+
+.liver-b:hover+.liver-c {
+    opacity: 0.5;
+}
+
+.stomach-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 52%;
+    bottom: 40%;
+
+}
+
+.stomach-b:hover+.stomach-c {
+    opacity: 0.5;
+}
+
+
+.large-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 44%;
+    bottom: 25%;
+
+}
+
+.large-b:hover+.large-c {
+    opacity: 0.5;
+}
+
+
+.kidney-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 53%;
+    bottom: 31.8%;
+
+
+}
+
+.kidney-b:hover+.kidney-c {
+    opacity: 0.5;
+}
+
+.small-c {
+    position: sticky;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 4.5em;
+    width: 4.5em;
+    background-color: red;
+    z-index: 50;
+    opacity: 0;
+    left: 49.5%;
+    bottom: 18%;
+
+}
+
+.small-b:hover+.small-c {
+    opacity: 0.5;
+}
