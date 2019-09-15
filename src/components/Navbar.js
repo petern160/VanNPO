@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/Navbar.css";
-import logo from "./logo-only.png";
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -9,11 +9,11 @@ class Navbar extends Component {
       <>
         <nav className="navbar navbar-expand-lg navbar-dark primary-color nav-container">
           <div class="logo">
-            <img src={logo} alt="" className="logo-nav" />
+            <img src='/img/logo-only.png' alt="" className="logo-nav" />
           </div>
-          <a className="navbar-brand navbar-text" href="#">
+          <Link className='navbar-brand navbar-text' to='/'>
             Oncol-IG
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -30,20 +30,20 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="basicExampleNav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" id="home-text" href="#">
+                <Link className='nav-link' id='home-text' to='/'>
                   Home
                   <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to='/diagram'>
                   Diagram
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
+                <Link className="nav-link" to='/lungs'>
+                  Lungs
+                </Link>
               </li>
             </ul>
 
