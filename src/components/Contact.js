@@ -137,6 +137,13 @@ const Contact = props => {
           BC Cancer
         </a>
       </div>
+      {data.map(data => (
+        <h1 key={data.name}>
+          Name: {data.name}
+          Address: {data.visit_address.street}, {data.visit_address.city}
+          {/* <img className="profile-picture" src={data.profile.image_url} /> */}
+        </h1>
+      ))}
       <button onClick={helpButton}>get help</button>
     </div>
   );
