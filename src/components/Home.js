@@ -6,11 +6,8 @@ import Navbar from './Navbar.js';
 
 const Home = props => {
   return (
-
     <div className="home-container">
-      <div>
         <Navbar />
-      </div>
       <div className="diagram">
         <button className="btn btn-dark heart-b">Heart</button>
         <button className="btn btn-dark lungs-b">Lungs</button>
