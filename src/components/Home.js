@@ -12,7 +12,12 @@ const Home = props => {
   return (
     <div className="home-container">
       <Navbar />
+
       <div className="diagram">
+        <p>
+          Please click on the text to view more details on cancer about that
+          organ.
+        </p>
         <button className="btn btn-dark heart-b">Heart</button>
         <div className="heart-c"></div>
         <button className="btn btn-dark lungs-b">Lungs</button>
