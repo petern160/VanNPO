@@ -6,7 +6,7 @@
 
 .diagram {
     height: 100vh;
-    background-image: url('../img/home.jpg');
+    background-image: url('/img/home.jpg');
     background-size: 55% 100%;
     background-repeat: no-repeat;
     background-position: center center;
